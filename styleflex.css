@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card {
+  border: 1px solid black;
+  width: 300px;
+}
+.cardText {
+  text-align: center;
+}
+
+.cardPhoto {
+  width: 100%;
+  height: auto;
+}
+img {
+  width: 100%;
+}
+@media (max-width: 617px) {
+  .card {
+    display: block;
+    width: 100%;
+  }
+}

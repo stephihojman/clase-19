@@ -1,0 +1,22 @@
+.main {
+  background-color: coral;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /*justify siempre en el eje x*/
+  align-items: flex-start; /*align siempre en eje y*/
+  /*flex-direction: column;*/
+}
+.cards {
+  background-color: aquamarine;
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+}
+
+@media (max-width: 600px) {
+  .cards {
+    background-color: yellowgreen;
+  }
+}
